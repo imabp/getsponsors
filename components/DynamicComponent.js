@@ -10,7 +10,7 @@ import Text from './Text'
 import EventDashboard from './EventDashboard'
 import OrganizerDashBoard from './OrganizerDashBoard'
 import SponsorProfile from './SponsorProfile'
-import Eventcard from './eventcard'
+import Eventcard from './Eventcard'
 const Components = {
   'teaser': Teaser,
   'grid': Grid,
