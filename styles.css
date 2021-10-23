@@ -26,16 +26,82 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background: #eef6f0;
+}
+
+.element::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+.section {
+  padding: 5rem 0;
+}
+.header_section {
+  display: flex;
+  padding-top: 3rem;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+.blob_section {
+  display: block;
+  height: 100vh;
+  padding-top: 20rem;
+  width: 100vw;
+}
+
+.hero_text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-left: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.hero_section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_logo {
+  width: 20rem;
+  padding-top: 2rem;
+}
+
+.hero_phone {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  padding-right: 8rem;
+  margin-bottom: 10rem;
+}
+
+.subtle_text {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  font-weight: bold;
+  top: 80%;
+  left: 41%;
+}
+/* END OF HERO */
+.blob_section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .sponsor_text {
   position: absolute;
   color: white;
   font-size: 4rem;
-  top: 60%;
-  right: 69%;
+  top: 113%;
+  right: 73%;
   line-height: 1;
   font-weight: bold;
   letter-spacing: 2px;
@@ -43,13 +109,15 @@ body {
   text-transform: uppercase;
   padding-left: 40px;
   cursor: pointer;
+  z-index: 10;
 }
+
 .sponsor_text2 {
   position: absolute;
   color: white;
   font-size: 4rem;
-  top: 60%;
-  right: 5%;
+  top: 113%;
+  left: 70%;
   line-height: 1;
   font-weight: bold;
   letter-spacing: 2px;
@@ -57,37 +125,26 @@ body {
   text-transform: uppercase;
   padding-left: 40px;
   cursor: pointer;
-}
-
-.hero_section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero_logo {
-  width: 200px;
-  padding-top: 2rem;
+  z-index: 10;
 }
 
 .blob {
   position: absolute;
-  top: 25%;
-  right: 86%;
+  top: 75%;
+  right: 60%;
   fill: #023f92;
-  z-index: -1;
+  z-index: 7;
   transform-origin: 50% 50%;
-  width: 20rem;
+  width: 50rem;
 }
+
 .blob2 {
   position: absolute;
-  top: 30%;
+  top: 75%;
   left: 60%;
   fill: #023f92;
-  z-index: -1;
+  z-index: 7;
   transform-origin: 50% 50%;
-  width: 30rem;
-}
-.blob_size {
   width: 50rem;
 }
 
@@ -107,6 +164,7 @@ body {
   animation: move 5s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
+
 @keyframes move {
   0% {
     transform: scale(1);
@@ -125,5 +183,21 @@ body {
   }
   100% {
     transform: scale(1);
+  }
+}
+
+.fill_animation {
+  pointer-events: none;
+  z-index: 30;
+  animation: fill 5s ease forwards;
+}
+
+@keyframes fill {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(5);
   }
 }

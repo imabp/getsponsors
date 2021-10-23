@@ -1,6 +1,9 @@
-const sponsor_Text = document.querySelector('.sponsor-text');
+const sponsor_Text = document.getElementById('spon_text');
 const blob = document.querySelector('.blob');
 
-sponsor_Text.addEventListener('mouseover', () => {
-  blob.classList.add('blob-animation');
+sponsor_Text.addEventListener('click', () => {
+  blob.classList.add('fill_animation');
+});
+sponsor_Text.addEventListener('click', () => {
+  blob.classList.remove('blob:hover');
 });
