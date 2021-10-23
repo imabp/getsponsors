@@ -8,6 +8,8 @@ import Page from './Page'
 import BlogPost from './BlogPost'
 import Text from './Text'
 import EventDashboard from './EventDashboard'
+import OrganizerDashBoard from './OrganizerDashBoard'
+import SponsorProfile from './SponsorProfile'
 import Eventcard from './eventcard'
 const Components = {
   'teaser': Teaser,
@@ -20,7 +22,8 @@ const Components = {
   'selected-posts': PostsList,
   'EventDashboard': EventDashboard,
   'eventcard': Eventcard,
-
+  'OrganizerDashBoard': OrganizerDashBoard,
+  'SponsorProfile':SponsorProfile
 }
 
 const DynamicComponent = ({ blok }) => {
