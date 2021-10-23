@@ -149,19 +149,19 @@ body {
 }
 
 .blob:hover {
-  animation: move 5s ease-in-out infinite;
+  animation: move 5s ease-in-out forwards;
   transform-origin: 50% 50%;
 }
 .blob2:hover {
-  animation: move 5s ease-in-out infinite;
+  animation: move 5s ease-in-out forwards;
   transform-origin: 50% 50%;
 }
 .sponsor_text:hover ~ .blob {
-  animation: move 5s ease-in-out infinite;
+  animation: move 5s ease-in-out forwards;
   transform-origin: 50% 50%;
 }
 .sponsor_text2:hover ~ .blob2 {
-  animation: move 5s ease-in-out infinite;
+  animation: move 5s ease-in-out forwards;
   transform-origin: 50% 50%;
 }
 
@@ -189,7 +189,7 @@ body {
 .fill_animation {
   pointer-events: none;
   z-index: 30;
-  animation: fill 5s ease forwards;
+  animation: fill 2s ease-in-out 5s forwards;
 }
 
 .spon_textdis {
