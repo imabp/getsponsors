@@ -192,6 +192,10 @@ body {
   animation: fill 5s ease forwards;
 }
 
+.spon_textdis {
+  display: none;
+}
+
 @keyframes fill {
   0% {
     transform: scale(1);
