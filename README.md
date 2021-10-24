@@ -1,3 +1,7 @@
+# NOTE FOR JUDGES: 
+### Why 13 months ago commit showing
+Our project is using the template from STORYBLOK Official Repository [storyblok/nextjs-multilanguage-website](https://github.com/storyblok/nextjs-multilanguage-website) . That is why some commits are showing few months coming. But the whole project and the implementation of concept is **done during hackathon period**
+
 ## ⚡Introduction:
 Finding the right Sponsor and Establishing a connection with them is a special concern, but the benefits are enormous. A strong sponsor relationship is also a win-win arrangement, in which both parties help each other to succeed.
 Did you know that event sponsorship spending has been constantly growing over the course of the past few years? So it’s no surprise that many companies and corporations are interested in sponsoring events, especially events that are fresh, new and out of the box.
