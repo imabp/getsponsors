@@ -9,7 +9,7 @@ var animateScaling = anime({
   borderRadius: ['0%', '120%'],
   rotate: '3turn',
   easing: 'easeInOutQuad',
-  duration: 5000,
+  duration: 1000,
   autoplay: false,
 });
 var animateScaling2 = anime({
@@ -18,7 +18,7 @@ var animateScaling2 = anime({
   borderRadius: ['0%', '120%'],
   rotate: '3turn',
   easing: 'easeInOutQuad',
-  duration: 5000,
+  duration: 1000,
   autoplay: false,
 });
 

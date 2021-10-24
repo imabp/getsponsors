@@ -98,7 +98,7 @@ body {
 
 .sponsor_text {
   position: absolute;
-  color: white;
+  color: white !important;
   font-size: 4rem;
   top: 113%;
   right: 73%;
@@ -114,7 +114,7 @@ body {
 
 .sponsor_text2 {
   position: absolute;
-  color: white;
+  color: white !important;
   font-size: 4rem;
   top: 113%;
   left: 70%;
@@ -137,7 +137,10 @@ body {
   transform-origin: 50% 50%;
   width: 50rem;
 }
-
+.main_link {
+  text-decoration: none;
+  color: inherit;
+}
 .blob2 {
   position: absolute;
   top: 75%;
@@ -189,7 +192,7 @@ body {
 .fill_animation {
   pointer-events: none;
   z-index: 30;
-  animation: fill 2s ease-in-out 5s forwards;
+  animation: fill 2s ease-in-out 1s forwards;
 }
 
 .spon_textdis {
