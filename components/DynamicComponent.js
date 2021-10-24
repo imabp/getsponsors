@@ -11,6 +11,7 @@ import EventDashboard from './EventDashboard'
 import OrganizerDashBoard from './OrganizerDashBoard'
 import SponsorProfile from './SponsorProfile'
 import Eventcard from './Eventcard'
+import HeadingCard from './HeadingCard'
 const Components = {
   'teaser': Teaser,
   'grid': Grid,
@@ -23,7 +24,9 @@ const Components = {
   'EventDashboard': EventDashboard,
   'eventcard': Eventcard,
   'OrganizerDashBoard': OrganizerDashBoard,
-  'SponsorProfile':SponsorProfile
+  'sponsor_dashboard':EventDashboard,
+  'SponsorProfile':SponsorProfile,
+  'headingcard':HeadingCard
 }
 
 const DynamicComponent = ({ blok }) => {

@@ -4,8 +4,8 @@ import SbEditable from 'storyblok-react'
 const Page = ({blok}) => (
   <SbEditable content={blok}>
     <main> 
-    
-    <div class="text-4xl">Upcoming Events.</div>
+
+
     <div class="grid grid-cols-3 gap-4 text-sm">
     {blok.body ? blok.body.map((blok) =>
         <DynamicComponent blok={blok} key={blok._uid} />
