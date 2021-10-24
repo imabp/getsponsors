@@ -3,6 +3,14 @@ Finding the right Sponsor and Establishing a connection with them is a special c
 Did you know that event sponsorship spending has been constantly growing over the course of the past few years? So it’s no surprise that many companies and corporations are interested in sponsoring events, especially events that are fresh, new and out of the box.
 Our Goal Through **SponsorBlok** is to bring them a Step closer.
 
+## Information for StoryBlok
+
+1. We are using different components which we created in storyblok and you can find the code here `./components` directory. Check it out [here](https://github.com/imabp/getsponsors/tree/main/components)
+2. The concept is pretty simple, showing sponsors right from the deck. We checked out the idea feasibility, and felt really needed in the current scenario of student led hackathons.
+3. Anyone who wants to, add them as sponsor, or add their event can reach out to: https://twitter.com/tech_phantoms
+4. Moreover, we have the following plan for future scope...<br/><br/>
+![image](https://user-images.githubusercontent.com/67915580/138581029-2095c21c-146c-4aaf-bee8-3c947c54caf1.png) 
+
 ## 💡Inspiration:
 It becomes a hassle to find the good sponsorship and get resources to reach out and pitch your Event.
 Keeping tabs on all the Emails and Communications can also get frustrating.
@@ -12,7 +20,6 @@ We came up with the idea of SponsorBlok as an all-in-one solution for both Spons
 ## 🎮What it does:
 It gives you a list of sponsors who can sponsor your event, and also gives the sponsors a list of Happening and Upcoming events to get in touch with.
 
-![image](https://user-images.githubusercontent.com/67915580/138581029-2095c21c-146c-4aaf-bee8-3c947c54caf1.png)
 
 ##  🛠How we built it
 Storyblok, JavaScript, NextJS, Vercel, Anime.JS
