@@ -238,18 +238,23 @@ body {
 .tab:hover {
   color: var(--primaryCol);
 }
+
+.footer-bar {
+  display: flex;
+  justify-content: flex-end;
+}
 .tab-bar,
 .icons {
   margin-top: 1.5rem;
   word-spacing: 3rem;
   margin-left: 2rem;
+  margin-left: 10rem;
 }
 .footer-center {
   display: flex;
   height: 10rem;
 
   flex-wrap: wrap;
-
   align-items: center;
 }
 .icon {
