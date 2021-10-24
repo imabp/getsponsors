@@ -192,13 +192,12 @@ body {
 
 .fill_animation {
   pointer-events: none;
-  z-index: 30;
   animation: fill 2s ease-in-out 1s forwards;
 }
 
-.spon_textdis {
+/* .spon_textdis {
   display: none;
-}
+} */
 
 @keyframes fill {
   0% {
